@@ -300,7 +300,7 @@ color: #ef3636;
     justify-content: center;
     align-items: flex-start;
     background-image: url('pics/shirt4.png');
-    min-width: 450px;
+    min-width: 550px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -345,7 +345,7 @@ color: #ef3636;
     justify-content: center;
     align-items: flex-start;
     background-image: url('pics/shirt14.png');
-    min-width: 58%;
+    min-width: 30%;
     height: 30vh;
     background-size: cover;
     background-position: center;
@@ -929,12 +929,16 @@ background-image: url("pics/flow.JPG");
     padding: 10px;
     font-size: 13px;
 }
-#cartNum{
+#cartNum, #cartNum2{
     color: red;
     position: absolute;
     margin-top: -20px;
     margin-left: 15px;
     font-size: 10px
+}
+#mobile #cartNum2{
+    font-size: 18px;
+    margin: -48px 0px 0px 42px;
 }
 .but{
     display: flex;

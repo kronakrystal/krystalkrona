@@ -26,3 +26,15 @@ function addToCar(){
     var y = Number(x) - 1;
     document.getElementById("cartNum").innerHTML = y;
 }
+
+function addToCart(){
+    var x = document.getElementById("cartNum2").innerHTML;
+    var y = Number(x) + 1;
+    document.getElementById("cartNum2").innerHTML = y;
+}
+
+function addToCar(){
+    var x = document.getElementById("cartNum2").innerHTML;
+    var y = Number(x) - 1;
+    document.getElementById("cartNum2").innerHTML = y;
+}
