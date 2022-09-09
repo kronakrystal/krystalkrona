@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+    <section id="header">
+        <a href="3"><img src="pics/logo.png" class="logo" alt="this ia an image"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="ig-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i><div id="cartNum">0</div></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag hello"></i></a>
+            <a id="bar"> &#9776;</a>
+        </div>
+    </section>
+
+    <!-- next section -->
+    <section id="hero">
+        <h4> Trade-in-offer</h4>
+        <h2>Super Value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- third section -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="pics/shirt9.png" alt="this is an image">
+            <h6>Free Shipping</h6>
+        </div>
+
+        <!-- pic 2 -->
+        <div class="fe-box">
+            <img src="pics/shirt22.png" alt="this is an image">
+            <h6>Order</h6>
+        </div>
+
+        <!-- pic 3 -->
+        <div class="fe-box">
+            <img src="pics/shirt26.png" alt="this is an image">
+            <h6>Save Money</h6>
+        </div>
+
+        <!-- pic 4 -->
+        <div class="fe-box">
+            <img src="pics/shirt21.png" alt="this is an image">
+            <h6>Promotions</h6>
+        </div>
+
+        <!-- pic 5 -->
+        <div class="fe-box">
+            <img src="pics/shirt8.png" alt="this is an image">
+            <h6>Happy Sell</h6>
+        </div>
+
+       
+       <!-- <div class="fe-box">
+            <img src="pics/shirt10.png" alt="this is an image">
+            <h6>F24/7 Support</h6>
+        </div>  -->
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="pics/shirt25.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                     <img src="pics/star1.png" class="lon">
+                     <img src="pics/star1.png" class="lon">
+                     <img src="pics/star1.png" class="lon">
+                     <img src="pics/star1.png" class="lon">
+                     <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+                <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+            <!-- section a -->
+            <div class="pro">
+                <img src="pics/shirt1.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$75</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+            <!-- section c -->
+            <div class="pro">
+                <img src="pics/shirt2.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$75</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/shirt3.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$45</h4>
+                </div>
+                    <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/shirt6.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$45</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/shirt7.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$65</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/shirt16.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$70</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/shirt17.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$60</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+             <!-- section c -->
+            <div class="pro">
+                <img src="pics/shirt12.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$60</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up to <span>70% Off</span>-All t-shirts & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+<!-- next part of the products -->
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New Morden Design</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="pics/cos1.jpg" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Black and White joggers</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+            <!-- section a -->
+            <div class="pro">
+                <img src="pics/slip2.jpg" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Croks</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+            <!-- section c -->
+            <div class="pro">
+                <img src="pics/shirt23.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Cartoon Astronaut T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/cos4.jpg" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Stripped Joggers</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/tro3.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Joggers</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/polo1.png" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>checked T-shirts</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+             <!-- section c -->
+             <div class="pro">
+                <img src="pics/cos3.jpg" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Joggers</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+
+
+          <!-- section c -->
+          <div class="pro">
+            <img src="pics/shirt9.png" alt="this is an image">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Cartoon Astronaut T-shirts</h5>
+                <div class="star">
+                    <img src="pics/star1.png" class="lon">
+                    <img src="pics/star1.png" class="lon">
+                    <img src="pics/star1.png" class="lon">
+                    <img src="pics/star1.png" class="lon">
+                    <img src="pics/star1.png" class="lon">
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href="#">
+                <i class="fal fa-shopping-cart cart"></i>
+            </a>
+                    </div>
+             <!-- section c -->
+            <div class="pro">
+                <img src="pics/cos5.jpg" alt="this is an image">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Joggers</h5>
+                    <div class="star">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                        <img src="pics/star1.png" class="lon">
+                    </div>
+                    <h4>$78</h4>
+                </div>
+  <a href="cart.html"><i class="fal fa-shopping-cart cart"></i></a>
+                <div class="but">
+                    <button class="butt"  onclick="addToCart()">+</button>
+                    <button class="butt" onclick="addToCar()">-</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- another section -->
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Learn More</button>
+        </div>
+
+        <!-- another part -->
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>Upcoming season</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>SEASONAL SALE</h2>
+            <h3>Winter Collection -50% OFF</h3>
+ </div>
+
+ <!-- part a -->
+ <div class="banner-box banner-box2">
+    <h2>NEW SHIRT COLLECTION</h2>
+    <h3>Sring/summer 2022</h3>
+</div>
+
+<!-- part b -->
+
+<div class="banner-box banner-box3">
+    <h2>T-shirts</h2>
+    <h3>New Trending PrintsF</h3>
+</div>
+    </section>
+
+    <!-- ?another section -->
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <!-- another section -->
+    <footer class="section-p1" >
+        <div class="col">
+            <img src="pics/logo.png" alt="this is an image" class="logo">
+            <h4>Contact</h4>
+            <p><strong>Address</strong> 15 Bclose Ango Beach Estate</p>
+            <p><strong>Phone</strong> +234 703 974 4486, +234 916 078 5727</p>
+            <p><strong>Hours</strong> 8:00am - 8:00pm Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <img src="pics/fcebook icon.png">
+                    <img src="pics/twitter icon.png">
+                    <img src="pics/instagram icon.png">
+                    <img src="pics/google icon.png">
+                    <img src="pics/youtube.icon.png">
+                </div>
+            </div>
+        </div>
+        <!-- another -->
+        <div class="col">
+            <h4>About us</h4>
+            <a href="#">About</a>
+            <a href="#">Delivery</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="col">
+            <h4> My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Orders</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="pics/iphone.png" alt="this is an icon" class="icon1">
+                <img src="pics/gplay1.png" alt="this is an icon" class="icon1">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="pics/master.png" class="icon12">
+        </div>
+        <div class="copyright">
+            info@|<a>KRYSTALKRONACOLLECTIONS</a>&copy;2022
+        
+        </div>
+    </footer>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
